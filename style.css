@@ -1,0 +1,36 @@
+/*le navigateur*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+}
+
+/*caractéristiques communes aux site*/
+
+body{
+    background-color: antiquewhite;
+}
+
+
+/*page d'acceuil*/
+
+.welcome{
+    background: url("photos/fond.jpg") center no-repeat;
+    height: 450px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
